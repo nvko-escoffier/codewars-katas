@@ -8,6 +8,8 @@ def make_negative( number ):
         return number-number*2
     elif number <0:
         return number
+    else:
+        return 0
 
 
 print(make_negative(42))
